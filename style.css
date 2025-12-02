@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body{
+    background-color:#eeece3;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header{
+    background-color: #fffdf6;
+    box-shadow: 0 0 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+#whatsapp-fixo{
+    position: fixed;
+    left: 96.75%;
+    z-index: 10000;
+    padding-left: 1px;
+    bottom: 20%;
+}
+
+#wpp{
+    width: 3.4em;
+    border-radius: 20%;
+    background-color: aliceblue;
+     border: solid, rgb(11, 189, 11), 0.15em;
+}
+
+#wpp:hover{
+    transform: scale(1.1);
+}
+
+nav{
+    position: absolute;
+    left: 37%;
+    bottom: 37%;
+}
+
+nav a{
+    margin-left: 2.5em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+nav a:hover{
+    color: #d4cca8;
+}
+
+.asm{
+    background-image: url(https://www.pizzariaatlantico.com.br/img/bg-pattern.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #f7f4ec;
+    padding-top: 1%;
+    padding-bottom: 6%; 
+}
+
+.sm{
+    background-color: #e7e1c9;
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-right: 12%;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    padding-top: 0.8%;
+    border: solid, #8b8770, 2px;
+}
+
+#Welcome{
+    margin-top: 4%;
+    font-size: 1.9em;
+}
+
+.pin{
+    margin-top: 3%;
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+.imglj{
+    border-radius: 10%;
+    width: 40%;
+    margin-left: 3%;
+}
+
+.imglj:hover{
+    transform: scale(1.15);
+    transition: 0.4s;
+}
+
+#cardapio{
+}
+
+.prato{
+    width: 20%;
+}
