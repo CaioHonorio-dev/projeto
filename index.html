@@ -14,7 +14,7 @@
         <img src="img/download.png" alt="Logo" width="140" id="Logo">
 
          <nav>
-             <a href="#home" id="Nave">Home</a>
+             <a href="#inicio" id="Nave">Home</a>
              <a href="#cardapio" id="Nave" >Cardápio</a>
              <a href="#contato"  id="Nave">Contato</a>
 
@@ -23,7 +23,7 @@
      </header>
      <main>
      <section>
-       <div class="asm">
+       <div id="inicio" class="asm">
          <div class="sm">
  
              <h2 id="Welcome">Bem-Vindo ao Bom Paladar</h2>
@@ -48,7 +48,7 @@ No Bom Paladar, buscamos transformar cada refeição em um momento marcante e ch
     
      <section id="cardapio">
         <div id="icar">
-            <h2 id="picar">Nosso cardápio</h2>
+            <h2 id="picar">• Nosso cardápio •</h2>
         </div>
         
          <div>
@@ -57,30 +57,56 @@ No Bom Paladar, buscamos transformar cada refeição em um momento marcante e ch
                  <img class="prato" src="https://images.unsplash.com/photo-1623961990059-28356e226a77?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Paella, comida espanhola">
                  <h3 class="Hprato">Paella</h3>
                  <p class="Pprato">Delicioso prato espanhol</p>
-                 <p class="Prprato">R$ 54,99</p>
- 
-             </div>
- 
-             <div id="p2">
-                 
-                 <img  class="prato" src="https://images.unsplash.com/photo-1674516585025-4b0cf436c3fc?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Phở Bo, comida vietnamita">
-                 <h3 class="Hprato">Phở Bo</h3>
+                 <p class="Prprato">R$ 44,99</p>
+                 <a class="btnshop" href="#pedido">Comprar</a>
+                 <img class="grampo" src="https://cdn-icons-png.flaticon.com/128/5838/5838062.png" alt="Grampo">
+                 <ul>
+                     <li>Valenciana (frango, coelho e feijão)</li>
+                     <li>Marinera (frutos do mar)</li>
+                     <li>Mista (carnes e frutos do mar)</li>
+                    </ul>
+                    
+                </div>
+                
+                <div id="p2">
+                    
+                    <img  class="prato" src="https://images.unsplash.com/photo-1674516585025-4b0cf436c3fc?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Phở Bo, comida vietnamita">
+                    <h3 class="Hprato">Phở Bo</h3>
                  <p class="Pprato">Delicioso prato vietnamita</p>
                  <p class="Prprato">R$ 27,99</p>
- 
+                 <a class="btnshop" href="#pedido">Comprar</a>
+                 <img class="grampo" src="https://cdn-icons-png.flaticon.com/128/5838/5838062.png" alt="Grampo">
+                 <ul>
+                     <li>Tripas</li>
+                     <li>Tendão bovino cozido</li>
+                     <li>Peito bovino</li>
+                     <li>Acém Cozido</li>
+                     <li>Carne mal passada</li>
+                    </ul>
+                    
              </div>
- 
+             
              <div id="p3">
                  
                  <img class="prato" src="https://images.unsplash.com/photo-1674516584901-e6d78a62f0df?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Yakisoba simples, comida japonesa">
                  <h3 class="Hyakisoba">Yakisoba Simples</h3>
                  <p class="Pprato">Prato originário japonês</p>
                  <p class="Prprato">R$ 33,99</p>
+                 <a class="btnshop" href="#pedido">Comprar</a>
+                 <img class="grampo" src="https://cdn-icons-png.flaticon.com/128/5838/5838062.png" alt="Grampo">
+                 <ul>
+                     <li>Frango</li>
+                     <li>Carne Bovina</li>
+                    <li>Misto</li>
+                    <li>Camarão</li>
+                    <li>Vegano</li>
+                </ul>
  
              </div>
- 
+    </section>
+    <section>
              <div>
-                 <form>
+                 <form id="pedido">
                      <input type="text" placeholder="Nome completo" required>
                      <input type="email" placeholder="Digite seu Email" required>
                      <textarea placeholder="Sua mensagem" rows="5" required></textarea>
