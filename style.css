@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color:#eeece3;
+    background-color: #e7e1c9;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -32,13 +32,13 @@ header{
     left: 96.75%;
     z-index: 10000;
     padding-left: 1px;
-    bottom: 20%;
+    bottom: 10%;
 }
 
 #wpp{
     width: 3.1em;
     border-radius: 30%;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     padding: 4%;
     border: solid, rgb(11, 189, 11), 0.15em;
 }
@@ -146,7 +146,7 @@ nav a:hover{
 
 #p1{
     position: relative;
-    left:2%;
+    left:4.5%;
     padding: 1%;
     margin-right: 60%;
     background-color: rgb(255, 254, 240);
@@ -155,7 +155,7 @@ nav a:hover{
 
 #p2{
     position: relative;
-    left:2%;
+    left:4.5%;
     padding: 1%;
     margin-right: 60%;
     background-color: rgb(255, 254, 240);
@@ -163,7 +163,7 @@ nav a:hover{
 }
 
 #p3{
-    left:2%;
+    left:4.5%;
     position: relative;
     margin-right: 60%;
     padding: 1%;
@@ -171,8 +171,41 @@ nav a:hover{
     background-color: rgb(255, 254, 240);
     
 }
-    .Hprato{
-        position: absolute;
+#p4{
+    left:56%;
+    position: absolute;
+    margin-right: 60%;
+    padding: 1%;
+    padding-right: 20.4%;
+    margin-bottom: 2.1%;
+    background-color: rgb(255, 254, 240);
+    top: 124.9%;
+    
+}
+#p5{
+    left:56%;
+    position: absolute;
+    margin-right: 60%;
+    padding: 1%;
+    padding-right: 20.4%;
+    margin-bottom: 2.1%;
+    background-color: rgb(255, 254, 240);
+    top: 167.2%;
+    
+}
+#p6{
+    left:56%;
+    position: absolute;
+    margin-right: 60%;
+    padding: 1%;
+    padding-right: 20.4%;
+    margin-bottom: 2.1%;
+    background-color: rgb(255, 254, 240);
+    top: 210%;
+    
+}
+.Hprato{
+    position: absolute;
     top: 5%;
     left: 70%;
     font-size: 1.5em;
@@ -199,6 +232,23 @@ nav a:hover{
     position: absolute;
     top: 5%;
     left: 67%;
+    font-size: 1.5em;
+    translate: -12% 0;
+    color: #7a673d;
+}
+
+.Hpamonha{
+    position: absolute;
+    top: 5%;
+    left: 66%;
+    font-size: 1.5em;
+    translate: -12% 0;
+    color: #7a673d;
+}
+.Hmasala{
+    position: absolute;
+    top: 5%;
+    left: 68.5%;
     font-size: 1.5em;
     translate: -12% 0;
     color: #7a673d;
@@ -243,17 +293,120 @@ transform-style: flat;
 #fotolabel{
     object-fit: cover;
     width: 99.999%;
-    height: 60rem;
+    height: 59rem;
     filter: grayscale(10%);
     filter: contrast(-10%);
+    margin-bottom: 0%;
+    box-shadow: 0 0 11px;
 }
 
 #pedido{
     position: absolute;
     background-color: none;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
     border: #fffdf63a solid 0.15em;
-    bottom: -232%;
+    bottom: -252%;
     right: 32%;
-    padding: 10% 5%;
+    padding: 6% 5%;
+}
+#pedido label, input, textarea, button{
+    display: block;
+    margin-bottom: 1.4em;
+    font-size: 1.2em;
+    width: 20em;
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+   
+}
+
+#pedido label{
+    color: #7a673d;
+    font-weight: 700;
+}
+
+#pedido input, textarea{
+    background: none;
+    border: solid white 0.1em;
+    color: white;
+    padding: 0.7em;
+}
+
+#pedido h2{
+    color: #d4cca8;
+    font-size: 2em;
+    text-shadow: #7a673d 0 0 3em;
+    margin-bottom: 1.8em;
+}
+
+#pedido button{
+    background-color: #d4cca8;
+}
+
+footer{
+    padding: 9%;
+    background-color: #e7e1c9;
+    margin:0%;
+}
+
+.logoFinal{
+    position: absolute;
+    bottom: -278.5%;
+    left: 7%;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.logoFinal img{
+    position: absolute;
+    bottom: 100%;
+    left: 20%;
+}
+
+.logoFinal p{
+    text-align: justify;
+}
+
+.dados{
+    position: absolute;
+    bottom: -289.9%;
+    left:69%;
+    font-size: 18px;
+}
+
+.dados p{
+    margin:1.5%
+}
+
+.dados a{
+    margin:1.5%
+}
+
+.direitos{
+    position: absolute;
+    bottom: -292.9%;
+    font-size: 20px;
+    left: 38%;
+    text-align: center;
+}
+
+.linksRapidos{
+    position: absolute;
+    bottom: -276%;
+    font-size: 18px;
+    left: 45%;
+}
+
+.linksRapidos h2{
+    margin-bottom: 1.2em;
+}
+
+.linkF{
+    text-decoration: none;
+    color: black;
+    margin: 2.5em;
+}
+
+.linkF:hover{
+    color: rgb(134, 114, 84);
 }
