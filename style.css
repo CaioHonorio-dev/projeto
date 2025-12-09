@@ -328,8 +328,20 @@ transform-style: flat;
 #pedido input, textarea{
     background: none;
     border: solid white 0.1em;
-    color: white;
+    color: rgb(214, 214, 214);
     padding: 0.7em;
+    font-size: 1.23em;
+    scale: 1;
+}
+
+#pedido input:hover{
+    transform: scale(1.035);
+    transition: 1.05s;
+}
+
+#pedido textarea:hover{
+    transform: scale(1.035);
+    transition: 1.05s;
 }
 
 #pedido h2{
@@ -341,6 +353,12 @@ transform-style: flat;
 
 #pedido button{
     background-color: #d4cca8;
+}
+
+#pedido button:hover{
+    background-color: #c2b397;
+    transform: scale(1.03);
+    transition: 0.5s;
 }
 
 footer{
